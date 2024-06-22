@@ -1,0 +1,354 @@
+@font-face {
+  font-family: Cute;
+  src: url(Cute.ttf);
+}
+
+@font-face {
+  font-family: Honk;
+  src: url(Honk.ttf);
+}
+
+body {
+
+  background-color: #e88738;
+  background-image: url(Images/BackGround.png);
+  display: flex;
+
+}
+
+.sidebar{
+
+  background-color: #e88738;
+  border-radius: 25px;
+
+}
+
+
+.items{
+
+  margin: auto;
+
+}
+
+.first {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.second {
+
+  display: flex;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.third {
+
+  display: flex;
+  align-items: center;
+
+}
+
+b {
+
+  font-family: Cute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.Belly {
+
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  max-width: 15%;
+  
+
+}
+
+.Hot {
+
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  max-width: 15%;
+
+}
+
+.Pizza {
+
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  max-width: 15%;
+
+}
+
+
+.rect {
+  
+
+  height: 500px;
+  background-color: #7b4026;
+  border-radius: 25px;
+  margin-right: auto;
+  align-content: center;
+  max-width: 30%;
+  
+
+}
+
+.rect2 {
+
+ 
+  height: 200px;
+  background-color: #7b4026;
+  border-radius: 25px;
+  margin-right: auto;
+  align-content: center;
+  max-width: 30%;
+
+}
+
+.rect3 {
+
+
+  height: 300px;
+  background-color: #7b4026;
+  border-radius: 25px;
+  margin-right: auto;
+  align-content: center;
+  max-width: 30%;
+
+}
+
+
+h1 {
+
+  font-family: Cute;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+
+  color: transparent;
+  background-image: repeating-linear-gradient(45deg, #f1f1f1 0px, #f1f1f1 144px, gray 144px, gray 288px, #bebebe 288px, #bebebe 432px);
+  background-size: 250%;
+  background-position: 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: lin 8s linear infinite;
+  animation: lin 16s linear infinite;
+}
+
+h2 {
+
+  font-family: Cute;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: clamp(12px,3vw,40px);
+
+}
+
+.links {
+
+  text-align: center;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+a {
+
+  display: block;
+  font-family: Cute;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.info {
+
+  padding-top: 20px;
+  text-align: center;
+  font-family: Cute;
+  font-size: 20px;
+  color: white;
+
+}
+
+@media(max-width:700px) {
+
+  body{
+    
+    align-content: center;
+    max-width: 450px;
+    inset: 0;
+    margin: auto;
+  }
+
+  .first{
+    
+    margin-top: 500px;
+    position: relative;
+
+  }
+  .second{
+
+    margin-top: 500px;
+    position: relative;
+
+  }
+  .third{
+    margin-top: 390px;
+    position: relative;
+
+  }
+
+  .Belly{
+
+    position: absolute;
+    top: -480px;
+    margin: auto;
+    width: 50%;
+    min-width: 250px;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+  }
+
+  .rect{
+
+    max-height: 250px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+    max-width: 95%;
+
+  }
+
+  .Hot{
+
+    position: absolute;
+    top: -340px;
+    margin: auto;
+    width: 50%;
+    min-width: 250px;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+  }
+
+  .rect2{
+
+    height: 120px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: 95%;
+
+  }
+
+  .Pizza{
+
+    position: absolute;
+    top: -280px;
+    margin: auto;
+    width: 50%;
+    min-width: 250px;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+  }
+
+  .rect3{
+
+    height: 160px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: 95%;
+    
+  }
+
+  h1 {
+
+    font-family: Cute;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: transparent;
+    background-image: repeating-linear-gradient(45deg, #f1f1f1 0px, #f1f1f1 144px, gray 144px, gray 288px, #bebebe 288px, #bebebe 432px);
+    background-size: 250%;
+    background-position: 0%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: lin 8s linear infinite;
+    animation: lin 16s linear infinite;
+
+  }
+
+  h2 {
+
+    
+    display: block;
+    font-family: Cute;
+    text-align: center;
+    color: white;
+    font-size: clamp(20px,6vw,25px);
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  a {
+
+    font-family: Cute;
+    color: white;
+    font-size: clamp(20px,6vw,25px);
+    display: inline-block;
+    text-align: center;
+    
+
+  }
+
+  .logos{
+    
+    width: 30px;
+    
+  }
+
+  .info{
+
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 15px;
+
+  }
+
+}
+
+@keyframes lin {
+  100% {
+    background-position: 165%;
+  }
+}
