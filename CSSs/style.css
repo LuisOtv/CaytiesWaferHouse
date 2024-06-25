@@ -18,26 +18,16 @@ body {
 
 .sidebar{
   
-  background-color: #e88738;
+  background-color: #e88733;
+  width: 500px;
   border-radius: 25px;
  
 }
 
 .sidebar_links{
 
-  display: block;
-
-}
-
-c {
-
-  padding-left: 30px;
-  padding-right: 30px;
-  display: block;
-  font-family: Cute;
-  text-align: left;
-  color: white;
-  font-size: 30px;
+ display: inline;
+ text-align: left;
 
 }
 
@@ -78,7 +68,7 @@ b {
 
 }
 
-.Belly {
+.a_drawing {
 
   display: block;
   margin-left: auto;
@@ -87,25 +77,6 @@ b {
   
 
 }
-
-.Hot {
-
-  display: block;
-  margin-left: auto;
-  margin-right: 50px;
-  max-width: 15%;
-
-}
-
-.Pizza {
-
-  display: block;
-  margin-left: auto;
-  margin-right: 50px;
-  max-width: 15%;
-
-}
-
 
 .rect {
 
@@ -114,36 +85,6 @@ b {
   margin-right: auto;
   align-content: center;
   max-width: 30%;
-  
-
-}
-
-.rect2 {
-
-  background-color: #7b4026;
-  border-radius: 25px;
-  margin-right: auto;
-  align-content: center;
-  max-width: 30%;
-
-}
-
-.rect3 {
-
-  background-color: #7b4026;
-  border-radius: 25px;
-  margin-right: auto;
-  align-content: center;
-  max-width: 30%;
-
-}
-
-.entry{
-
-  background-color: #7b4026;
-  border-radius: 25px;
-  margin: auto;
-  max-width: 50%;
   
 
 }
@@ -221,7 +162,6 @@ a {
   display: block;
   font-family: Cute;
   text-align: center;
-  display: inline-block;
   color: white;
   font-size: clamp(10px,2vw,40px);
   padding-bottom: 30px;
